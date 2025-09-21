@@ -1,0 +1,57 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f6;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #d63384;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #f8d7e9;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Кнопки */
+a.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #d63384;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #9c2b6e;
+}
+
+/* Навигация */
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #ffe6f0;
+}
